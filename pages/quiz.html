@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="/media/bg/favicon-05.png" type="image/x-icon">
+</head>
+<body class="body-quiz">
+
+     <header class="header-div">
+          <div class="atras-div">
+               <a href="/index.html">
+               <img src="https://img.icons8.com/ios/50/000000/back--v1.png" class="atras-img"/>
+               </a>
+          </div>
+          <div id="logo-header-div">
+               <img src="/media/bg/outlines/top-dcha-01.svg" alt="logo header" id="logo-header-img">
+          </div>
+     </header>
+     <section id="formulario">
+          <form name="formulario" class="clase-formulario" id="formulario1">
+               
+               <fieldset id="origen">
+                    <div class="pregunta">
+                         <img src="/media/bg/favicon-05.png" alt="croqueta-horizontal" class="croqueta-img-pregunta">
+                         <legend>¿De dónde son originalmente las croquetas?</legend>
+                    </div>     
+                 
+                       
+                    <div class="respuestas-div">
+     
+                         <div class="respuestas-caja correcta1">
+                              <label for="francia1">Francia</label>
+                              <input id="francia1" type="radio" name="origen" value="Francia" required>
+                         </div>
+                         <div class="respuestas-caja incorrecta1">
+                              <label for="reino-unido1">Reino Unido</label>
+                              <input id="reino-unido1" type="radio" name="origen" value="Reino_Unido" required>
+                         </div>
+                
+                         <div class="respuestas-caja incorrecta1">
+                              <label for="italia1">Italia</label>
+                              <input id="italia1" type="radio" name="origen" value="Italia" required>
+                         </div>
+                         <div class="respuestas-caja incorrecta1">
+                              <label for="espanya1">España</label>
+                              <input id="espanya1" type="radio" name="origen" value="España" required>
+                         </div>
+             
+                    </div>
+     
+               </fieldset>
+       
+                <fieldset id="dia-internacional">
+                    <div class="pregunta">
+                         <img src="/media/bg/favicon-05.png" alt="croqueta-horizontal" class="croqueta-img-pregunta">
+                         <legend>¿Qué día es el Día Internacional de la Croqueta?</legend>
+                    </div>     
+          
+                    <div class="respuestas-div">
+                         <div class="respuestas-caja incorrecta2">
+                              <label for="dia14">14 de agosto</label>
+                              <input id="dia14" type="radio" name="dia" value="14" required>
+                         </div>
+                         <div class="respuestas-caja incorrecta2">
+                              <label for="dia27">27 de febrero</label>
+                              <input id="dia27" type="radio" name="dia" value="27" required>
+                         </div>
+                         <div class="respuestas-caja correcta2">
+                              <label for="dia16">16 de enero</label>
+                              <input id="dia16" type="radio" name="dia" value="16" required>
+                         </div>
+                         <div class="respuestas-caja incorrecta2">
+                              <label for="dia5">5 de noviembre</label>
+                              <input id="dia5" type="radio" name="dia" value="5" required>
+                         </div>
+               </div>
+       
+               </fieldset>
+       
+               <fieldset id="significado">
+                    <div class="pregunta">
+                         <img src="/media/bg/favicon-05.png" alt="croqueta-horizontal" class="croqueta-img-pregunta">
+                         <legend>¿Cuál es el significado original de la palabra croqueta?</legend>
+                    </div>
+          
+                 <div class="respuestas-div">
+                      <div class="respuestas-caja incorrecta3">
+                         <label for="crema3">Crema</label>
+                         <input id="crema3" type="radio" name="significado" value="crema" required>
+                     </div>
+                     <div class="respuestas-caja incorrecta3">
+                         <label for="crujiente3">Crujiente
+                         </label>
+                         <input id="crujiente3" type="radio" name="significado" value="crujiente" required>
+                    </div>
+                   <div class="respuestas-caja correcta3">
+                         <label for="criatura3">Criatura</label>
+                         <input id="criatura3" type="radio" name="significado" value="criatura" required>
+                    </div>
+                    <div class="respuestas-caja incorrecta3">
+                         <label for="cromatismo3">Cromatismo</label>
+                        <input id="cromatismo3" type="radio" name="significado" value="cromatismo" required>
+                    </div>
+               </div>
+       
+               </fieldset>
+       
+               <fieldset id="razón">
+                    <div class="pregunta">
+                         <img src="/media/bg/favicon-05.png" alt="croqueta-horizontal" class="croqueta-img-pregunta">
+                         <legend>Sabemos su origen pero, ¿por qué razón surge la croqueta?</legend>
+                    </div>
+                
+                 <div class="respuestas-div">
+                      <div class="respuestas-caja incorrecta4">
+                         <label for="frio4">Como remedio al frío del invierno francés</label>
+                         <input id="frio4" type="radio" name="razon" value="frio" required>
+                     </div>
+                     <div class="respuestas-caja incorrecta4">
+                         <label for="corte4">Para impresionar con un nuevo plato a la corte inglesa en una de sus visitas
+                         </label>
+                         <input id="corte4" type="radio" name="razon" value="corte" required>
+                    </div>
+                   <div class="respuestas-caja incorrecta4">
+                         <label for="economica4">Era un plato económico para las clases más bajas </label>
+                         <input id="economica4" type="radio" name="razon" value="economico" required>
+                    </div>
+                    <div class="respuestas-caja correcta4">
+                         <label for="aprovechar4">Aprovechar los restos de otros platos y no tirar comida a la basura</label>
+                        <input id="aprovechar4" type="radio" name="razon" value="aprovechar" required>
+                    </div>
+               </div>
+       
+               </fieldset>
+          
+         
+               <fieldset id="bechamel">
+                    <div class="pregunta">
+                         <img src="/media/bg/favicon-05.png" alt="croqueta-horizontal" class="croqueta-img-pregunta">
+                         <legend>¿Qué contenía la croqueta antes de usar bechamel?</legend>
+                    </div>
+
+                 <div class="respuestas-div">
+                      <div class="respuestas-caja incorrecta5">
+                         <label for="maiz5">Pasta de maíz</label>
+                         <input id="maiz5" type="radio" name="contenido" value="maiz" required>
+                     </div>
+                     <div class="respuestas-caja correcta5">
+                         <label for="patata5">Patata
+                         </label>
+                         <input id="patata5" type="radio" name="contenido" value="patata" required>
+                    </div>
+                   <div class="respuestas-caja incorrecta5">
+                         <label for="champiñones5">Masa hecha de champiñones</label>
+                         <input id="champiñones5" type="radio" name="contenido" value="champiñones" required>
+                    </div>
+                    <div class="respuestas-caja incorrecta5">
+                         <label for="sofrito5">Sofrito</label>
+                        <input id="sofrito5" type="radio" name="contenido" value="sofrito" required>
+                    </div>
+               </div>
+       
+               </fieldset>
+     
+               <fieldset id="pastel">
+                    <div class="pregunta">
+                         <img src="/media/bg/favicon-05.png" alt="croqueta-horizontal" class="croqueta-img-pregunta">
+                         <legend>¿Cómo crees que se llama este pastel de croquetas?</legend>
+                         <img src="/media/tarta_croquetas.jpg" alt="tarta-croquetas" id="foto-tarta">
+                    </div>
+                 <div class="respuestas-div">
+                      <div class="respuestas-caja incorrecta6">
+                         <label for="croquelate6">Tarta de Croquelate</label>
+                         <input id="croquelate6" type="radio" name="pastel" value="croquelate" required>
+                     </div>
+                     <div class="respuestas-caja incorrecta6">
+                         <label for="paraiso6">Paraíso
+                         </label>
+                         <input id="paraiso6" type="radio" name="pastel" value="paraiso" required>
+                    </div>
+                   <div class="respuestas-caja correcta6">
+                         <label for="cubano6">Tiramisú cubano</label>
+                         <input id="cubano6" type="radio" name="pastel" value="cubano" required>
+                    </div>
+                    <div class="respuestas-caja incorrecta6">
+                         <label for="croquet6">Croquet pie</label>
+                        <input id="croquet6" type="radio" name="pastel" value="croquet" required>
+                    </div>
+               </div>
+       
+               </fieldset>
+       
+               <fieldset id="record-mundial">
+                    <div class="pregunta">
+                         <img src="/media/bg/favicon-05.png" alt="croqueta-horizontal" class="croqueta-img-pregunta">
+                         <legend>¿De dónde es la persona que tiene el record mundial de comer croquetas?</legend>
+                    </div>
+                
+                 <div class="respuestas-div">
+                      <div class="respuestas-caja incorrecta7">
+                         <label for="napoles7">Nápoles</label>
+                         <input id="napoles7" type="radio" name="record" value="napoles" required>
+                     </div>
+                     <div class="respuestas-caja incorrecta7">
+                         <label for="paris7">París
+                         </label>
+                         <input id="paris7" type="radio" name="record" value="paris" required>
+                    </div>
+                   <div class="respuestas-caja incorrecta7">
+                         <label for="texas7">Texas</label>
+                         <input id="texas7" type="radio" name="record" value="texas" required>
+                    </div>
+                    <div class="respuestas-caja correcta7">
+                         <label for="pais-vasco7">Pais Vasco</label>
+                        <input id="pais-vasco7" type="radio" name="record" value="pais_vasco" required>
+                    </div>
+               </div>
+       
+               </fieldset>
+       
+               <fieldset id="quote">
+                    <div class="pregunta">
+                         <img src="/media/bg/favicon-05.png" alt="croqueta-horizontal" class="croqueta-img-pregunta">
+                         <legend>¿Quién dijo “las croquetas deberían tener hueso, para que pudiésemos llevar la cuenta de las que comemos”?</legend>
+                    </div>
+                 
+                 <div class="respuestas-div">
+                      <div class="respuestas-caja correcta8">
+                         <label for="ramon8">Ramón Gómez de la Serna</label>
+                         <input id="ramon8" type="radio" name="dicho" value="ramon" required>
+                     </div>
+                     <div class="respuestas-caja incorrecta8">
+                         <label for="karlos8">Karlos Arguiñano
+                         </label>
+                         <input id="karlos8" type="radio" name="dicho" value="karlos" required>
+                    </div>
+                   <div class="respuestas-caja incorrecta8">
+                         <label for="comidista8">El Comidista</label>
+                         <input id="comidista8" type="radio" name="dicho" value="comidista" required>
+                    </div>
+                    <div class="respuestas-caja incorrecta8">
+                         <label for="belen8">Belén Esteban</label>
+                        <input id="belen8" type="radio" name="dicho" value="belen" required>
+                    </div>
+               </div>
+       
+               </fieldset>
+       
+               <fieldset id="top5">
+                    <div class="pregunta">
+                         <img src="/media/bg/favicon-05.png" alt="croqueta-horizontal" class="croqueta-img-pregunta">
+                         <legend>¿Qué tapa pertenece al top 5 de tapas consumidas en España?</legend>
+                    </div> 
+            
+                 <div class="respuestas-div">
+                      <div class="respuestas-caja incorrecta9">
+                         <label for="tapas1">Anchoas en vinagre</label>
+                         <input id="tapas1" type="radio" name="top" value="anchoas">
+                     </div>
+                     <div class="respuestas-caja correcta9">
+                         <label for="tapas2">Croquetas
+                         </label>
+                         <input id="tapas2" type="radio" name="top" value="croquetas">
+                    </div>
+                   <div class="respuestas-caja incorrecta9">
+                         <label for="tapas3">Chopitos</label>
+                         <input id="tapas3" type="radio" name="top" value="chopitos">
+                    </div>
+                    <div class="respuestas-caja incorrecta9">
+                         <label for="tapas4">La tapa que no se ha comido la mesa de al lado</label>
+                        <input id="tapas4" type="radio" name="top" value="lado">
+                    </div>
+               </div>
+       
+               </fieldset>
+      
+               <fieldset id="consumo-medio">
+                    <div class="pregunta">
+                         <img src="/media/bg/favicon-05.png" alt="croqueta-horizontal" class="croqueta-img-pregunta">
+                         <legend>¿Cuál es la media de consumo de croquetas de un español en un año?</legend>
+                    </div>
+                 
+                 <div class="respuestas-div">
+                      <div class="respuestas-caja incorrecta10">
+                         <label for="35-croquetas">35 croquetas al año</label>
+                         <input id="35-croquetas" type="radio" name="media" value="35" required>
+                     </div>
+                     <div class="respuestas-caja incorrecta10">
+                         <label for="103-croquetas">103 croquetas al año
+                         </label>
+                         <input id="103-croquetas" type="radio" name="media" value="103" required>
+                    </div>
+                   <div class="respuestas-caja incorrecta10">
+                         <label for="50-croquetas">50 croquetas al año</label>
+                         <input id="50-croquetas" type="radio" name="media" value="50" required>
+                    </div>
+                    <div class="respuestas-caja correcta10">
+                         <label for="80-croquetas">80 croquetas al año</label>
+                        <input id="80-croquetas" type="radio" name="media" value="80" required>
+                    </div>
+               </div>
+       
+               </fieldset>  
+
+
+            <section id="boton-submit">
+               <button type="submit" class="submit-button">ENVIAR</button>
+            </section>
+
+          </form>
+    </section>
+    <section id="div-resultados">
+     <div name="close" id="container-foto-resultado">
+          <div id="close-button" onclick="closeFunction()">X
+          </div>
+     </div>
+    </section>
+    <div name="reset" id="reset-button-div"></div>
+<script src="/js/script.js"></script>
+</body>
+</html>

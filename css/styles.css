@@ -1,0 +1,413 @@
+html, body {
+	width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/* *{
+    border: 2px dotted red; ;
+}   */
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap');
+/*font-family: 'Gorditas', cursive;*/
+
+/*_________INDEX__________*/
+#body-index{
+    display: flex;
+    background-image: url(/media/bg/background-01.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    place-content: space-between;
+}
+
+
+/*boton Empezar Index*/
+.button-div{
+    display: flex;
+    align-self: flex-end;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-img{
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    height: auto;
+    width: 90%;
+    transition: all .2s ease-in-out;
+}
+
+.button-img:hover{
+    transform: scale(1.1);
+}
+
+#anchorDiv{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*Croqueta img*/
+.croqueta-img{
+    max-width: 320px;
+    width: 90%;
+}
+.croqueta-div{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+/*div párrafo*/
+.div-parr{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    max-width: 300px;
+}
+.parr-index{
+    font-family:monospace;
+    margin-top: 0;
+    text-align: center;
+    font-size: 21px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+
+
+
+/*________QUIZ PAGE_______*/
+.body-quiz {
+    background-image: url(/media/bg/background-01.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+fieldset{
+    height: 100%;
+    margin-top: 60px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 131px;
+}
+
+.croqueta-img-pregunta{
+    z-index: 1;
+    margin-top: -100px;
+    width: 75px;
+}
+
+
+
+/*boton atras*/
+.atras-img{
+    transition: all .2s ease-in-out;
+   
+}
+.atras:hover{
+    transform: scale(1.1);
+}
+.atras-div{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+
+
+/* imagen HEADER */
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    
+}
+#logo-header-div{
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+#logo-header-img{
+    min-width: 105px;
+    margin-right: 5px;
+
+}
+
+
+
+/*QUIZ*/
+.tarjeta img{
+    display: block;
+    margin: 10px auto;
+    max-width: 300px;
+    max-height: 100px;
+    text-align: center;
+    width: 130px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.tarjeta img:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+legend{
+    padding-bottom: 45px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.pregunta{
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: monospace;
+    opacity: 100%;
+    height: fit-content;
+    box-shadow: 0px 10px 10px -6px grey;
+    background: linear-gradient(rgb(247, 199, 41), #fba64a);
+    min-width: fit-content;
+    width: 100%;
+}
+
+.respuestas-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    width: 100%;
+}
+
+.respuestas-caja{
+    border: 2px solid black;
+    background-color: #f8f8f8;
+    padding: 18px;
+    margin-top: 10px;
+    height: 40px;
+    box-shadow: 0px 10px 10px -6px rgb(109 109 109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+label{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.myStyle{
+    background-color: green;
+}
+
+.myStyle1{
+    background-color: red;
+}
+
+
+#botones-final{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+
+/*CLOSE button*/
+#close-button{
+    padding: 10px;
+	width: 50px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-family: fantasy;
+    font-weight:bolder;
+    text-align: center;
+    opacity: 0;
+}
+
+#close-button:hover{
+	opacity: .8;
+}
+
+
+/*RESET button*/
+#reset-button-div{
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+#reset-button{
+    background-color: #cc4cd8;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: 'Gorditas', cursive;
+}
+#reset-button:hover{
+    background-color: #1ff3fe;
+    color: black;
+  }
+
+
+
+/*boton radius*/
+/* input{
+    opacity: .0;
+} */
+
+
+#foto-tarta{
+    max-width: 276px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+
+/*submit button*/
+
+.submit-button {
+    background-color: #1ff3fe;
+    color: black;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: 'Gorditas', cursive;
+  }
+  
+  .submit-button:hover {
+    background-color: #cc4cd8;
+    color: white;
+  }
+
+   #boton-submit{
+    display: flex;
+    justify-content: center;
+   }
+
+
+  .container{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: rgb(41 41 41 / 90%);
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+}
+
+.div-resultados{
+    width: 100%;
+    display: flex;
+    animation-timing-function: ease-in-out;
+}
+
+
+.clasefoto{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+.claseparrafo{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: white;
+
+}
+
+
+
+
+
+/*MEDIA QUERY*/
+@media only screen and (min-width: 768px) {
+   
+
+    .body-quiz{
+        flex-wrap: wrap;
+        min-width: none;
+        justify-content: center;
+    }
+
+ /*    .pregunta{
+       min-width: fit-content;
+    } */
+
+    .respuestas-div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: space-around;
+        
+    }
+
+    .respuestas-caja {
+        width: 100%;
+        height: 8vh;
+        margin: 5px;
+        max-width: 43%;
+    }
+
+    #formulario{
+        width: 100%;
+    justify-content: center;
+    display: flex;
+    }
+
+    .clasefoto{
+        width: 50%;
+    }
+
+    .clase-formulario{
+        max-width: 100%;
+    }
+
+    fieldset{
+        height: auto;
+        padding-bottom: 60px;
+        max-width: 730px;
+    }
+
+ 
+  }
